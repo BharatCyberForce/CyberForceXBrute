@@ -2,7 +2,7 @@
 ## Multi-Website Brute Force Tool
 This is a powerful and efficient multi-website brute force tool designed to quickly identify weak credentials across various WordPress websites simultaneously. With its multi-threading capabilities and auto-combination of usernames with different numbers and names, it offers fast and effective brute force attacks.
 
-# Features
+## Features
 
  - Multi-Website Brute Forcing:  FastBrute allows users to target multiple wordpress websites simultaneously, streamlining the brute force process and saving valuable time during security assessments.
  - Fast and Efficient: Leveraging the power of concurrent programming, FastBrute utilizes multi-threading to perform brute force attacks on multiple websites simultaneously. This efficient parallel processing significantly reduces the time required to complete the assessments.
@@ -15,11 +15,11 @@ This is a powerful and efficient multi-website brute force tool designed to quic
 
 <br>
 
-# How It Works
+## How It Works
 
 The tool leverages the XML-RPC of WordPress sites to perform brute force attacks. It first fetches user information from the target website(s) and then generates a list of potential username-password combinations. These combinations include default passwords, usernames combined with common words, and usernames combined with numbers, significantly expanding the attack surface. 
 
-# Usage
+## Usage
 
 To use FastBrute, simply provide a list of target websites and specify the desired number of threads for parallel processing. FastBrute will automatically initiate brute force attacks on the specified websites, combining usernames with different passwords and variations to maximize coverage and identify potential security weaknesses.
 python CyberForceXBrute.py: This command invokes the FastBrute script using Python.
@@ -51,3 +51,4 @@ python3 CyberForceXBrute.py -l list.txt -t 100
 This tool is meant for educational purposes only. Unauthorized use of this tool on websites without proper authorization is illegal. Use responsibly and at your own risk.
 
 </br> </br>
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F7AB0A&width=435&lines=Developed+By+Indian+Cyber+Force)
